@@ -1,0 +1,240 @@
+body {
+		background-color: #455;
+		margin: 0;
+		padding: 0;
+		height: 100%;
+		font-family: "Arial";
+	
+}
+
+.banner {
+		display: block;
+		width: 100%;
+}
+
+.image1 {
+		display: block;
+		width: 100%;
+		padding-top:7em;
+}
+
+a.button4{
+display:inline-block;
+padding:2em;
+margin:2em;
+border:0.0em solid rgba(255,255,255,0);
+border-radius: 2em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-weight:300;
+color:#FFFFFF;
+text-align:center;
+background-color: #767;
+width: 13em;
+height: 13em;
+-webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.49);
+-moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.49);
+box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.49);
+background-image: url(kasuwa.png);
+background-size: 100% 100%;
+}
+a.button4:hover{
+border-color: #fff;
+transition-duration: 0.7s;
+-webkit-box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.75);
+}
+
+
+
+a.button5{
+display:inline-block;
+padding:2em;
+margin:2em;
+border:0.0em solid rgba(255,255,255,0);
+border-radius: 2em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-weight:300;
+color:#FFFFFF;
+text-align:center;
+background-color: #767;
+width: 13em;
+height: 13em;
+-webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.49);
+-moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.49);
+box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.49);
+background-image: url(etsy.png);
+background-size: 100% 100%;
+}
+a.button5:hover{
+border-color: #fff;
+transition-duration: 0.7s;
+-webkit-box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 31px 0px rgba(0,0,0,0.75);
+}
+
+
+
+.button {
+  width: 140px;
+  height: 45px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  }
+
+.button:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box1 {
+      padding: 15px;
+      font-size: 18px;
+      color: #fff;
+      background-color: #5e6675;
+      margin-top: -1em;
+      -webkit-border-radius: 0px 0px 6px 6px;
+      -moz-border-radius: 0px 0px 6px 6px;
+      border-radius: 2em;
+	  width: auto;
+
+}
+
+
+
+button23
+{
+    position: relative;
+    top: 50%;
+    right: 0;
+    left: 0;
+    display: block;
+    width: 8em;
+	height: 8em;
+    padding: 40px;
+    margin: 0 auto;
+    border: 0;
+    cursor: pointer;
+    border-radius: 2px;
+    transform: translateY(-50%);
+    box-shadow: 0 10px 20px -5px #000;
+    overflow: hidden;
+	border-radius: 2em;
+}
+
+button23:before, button23:after
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+button23:before
+{
+    transform: scale(1);
+    background-image: url(etsy.png);
+    background-size: cover;
+    transition: 0.3s ease transform;
+    z-index: 1;
+}
+
+button23:after
+{
+    background-color: #000;
+    opacity: 0.0;
+    z-index: 4;
+
+}
+
+button23 div
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+}
+
+button23 div:before, button23 div:after
+{
+    position: relative;
+    top: 20px;
+    right: 0;
+    left: 0;
+    color: #fff;
+    font-size: 40px;
+		font-family: 'Arial';
+    line-height: 1;
+    text-align: center;
+    padding: 5px 0;
+    transition: 0.3s ease all;
+	font-weight: lighter;
+}
+
+button23 div:before
+{
+    content: "";
+    letter-spacing: 1;
+    opacity: 1;
+    transform: scale(0.1);
+	
+}
+
+button23 div:after
+{
+	content: "zu meinem etsy shop";
+    letter-spacing: -2px;
+    transform: scale(1);
+    opacity: 0;
+	z-index: 0;
+}
+
+button23:hover:before
+{
+    transform: scale(1.2);
+
+}
+
+button23:hover div:before
+{
+    letter-spacing: 3px;
+    opacity: 0;
+    transform: scale(1);
+	transform: translate(0em,0em);
+}
+
+button23:hover div:after
+{
+    letter-spacing: 0;
+    opacity: 1;
+    transform: scale(1);
+}
