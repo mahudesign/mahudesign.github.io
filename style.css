@@ -122,14 +122,13 @@ width: 60vw;
 }
 
 .box2{
-	width: 15vw;
-	height: 15vw;
-	background: green;
+	width: 55%;
+	height: auto;
+	background: transparent;
 	margin: 50px;
 	box-sizing: border-box;
 	border-radius: 1em;
 	cursor: pointer;
-	background-image: url("images/etsy2.jpg");
 	transition: .6s ease;
 }
 
