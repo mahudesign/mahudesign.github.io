@@ -133,6 +133,15 @@ width: 60vw;
 	transition: .6s ease;
 }
 
+.box2:hover {
+transition: .6s ease;
+-webkit-box-shadow: 6px 6px 38px 20px rgba(0,0,0,0.33);
+-moz-box-shadow: 6px 6px 38px 20px rgba(0,0,0,0.33);
+box-shadow: 6px 6px 38px 20px rgba(0,0,0,0.33);
+}
+
+
+
 .box3{
 	width: 22em;
 	height: 22em;
@@ -167,12 +176,6 @@ width: 60vw;
 
 
 
-.box2:hover {
-transition: .6s ease;
--webkit-box-shadow: 6px 6px 38px 20px rgba(0,0,0,0.33);
--moz-box-shadow: 6px 6px 38px 20px rgba(0,0,0,0.33);
-box-shadow: 6px 6px 38px 20px rgba(0,0,0,0.33);
-}
 
 
 .box3:hover {
