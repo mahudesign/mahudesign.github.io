@@ -114,3 +114,81 @@ color: #bbb;
 z-index: -1;
 }
 
+
+
+
+
+
+
+
+.container2{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	flex-content: space-around;
+	flex-flow: wrap;
+	justify-content: center;
+}
+
+.box2{
+	width: 230px;
+	height: 230x;
+	background: green;
+	margin: 50px;
+	box-sizing: border-box;
+	border-radius: 1em;
+	cursor: pointer;
+	background-image: url("images/etsy2.jpg");
+	transition: .6s ease;
+}
+
+.box3{
+	width: 230px;
+	height: 230x;
+	background: green;
+	margin: 50px;
+	box-sizing: border-box;
+	border-radius: 1em;
+	cursor: pointer;
+	background-image: url("images/kasuwa2.jpg");
+	transition: .6s ease;
+}
+
+.overlay {
+
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.0); /* Black see-through */
+  color: #f1f1f1; 
+  width: 230px;
+	vertical-align: middle;
+	height: 230px;
+  transition: .3s ease;
+  opacity:0;
+  
+  color: white;
+  font-size: 25px;
+  
+  text-align: center;
+	-webkit-backdrop-filter: blur(8px) brightness(1.2);
+	backdrop-filter: blur(8px) brightness(1.2);
+}
+
+
+
+.box2:hover {
+transition: .6s ease;
+-webkit-box-shadow: 6px 6px 38px 20px rgba(0,0,0,0.33);
+-moz-box-shadow: 6px 6px 38px 20px rgba(0,0,0,0.33);
+box-shadow: 6px 6px 38px 20px rgba(0,0,0,0.33);
+}
+
+
+.box3:hover {
+transition: .6s ease;
+-webkit-box-shadow: 6px 6px 38px 20px rgba(0,0,0,0.33);
+-moz-box-shadow: 6px 6px 38px 20px rgba(0,0,0,0.33);
+box-shadow: 6px 6px 38px 20px rgba(0,0,0,0.33);
+}
+
+
