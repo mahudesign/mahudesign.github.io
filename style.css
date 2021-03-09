@@ -122,8 +122,8 @@ width: 60vw;
 }
 
 .box2{
-	width: 230px;
-	height: 230x;
+	width: 22em;
+	height: 22em;
 	background: green;
 	margin: 50px;
 	box-sizing: border-box;
@@ -134,27 +134,28 @@ width: 60vw;
 }
 
 .box3{
-	width: 230px;
-	height: 230x;
+	width: 22em;
+	height: 22em;
 	background: green;
 	margin: 50px;
 	box-sizing: border-box;
 	border-radius: 1em;
 	cursor: pointer;
-	background-image: url("images/kasuwa2.jpg");
+
 	transition: .6s ease;
 }
 
 .overlay {
 
   background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.0); /* Black see-through */
+  background: rgba(0, 0, 0, 1); /* Black see-through */
   color: #f1f1f1; 
-  width: 230px;
-	vertical-align: middle;
-	height: 230px;
+  width: 22em;
+  height: 22em;
+  vertical-align: middle;
+
   transition: .3s ease;
-  opacity:0;
+  opacity:1;
   
   color: white;
   font-size: 25px;
