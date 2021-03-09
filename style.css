@@ -102,17 +102,7 @@ width: 60vw;
 }
 
 
-footer {
-position:relative;
-display:table-cell;
-vertical-align:middle;
-width:100vw;
-height:5em;
-background-color: #333;
-text-align:center;
-color: #bbb;
-z-index: -1;
-}
+
 
 
 
@@ -189,6 +179,20 @@ transition: .6s ease;
 -webkit-box-shadow: 6px 6px 38px 20px rgba(0,0,0,0.33);
 -moz-box-shadow: 6px 6px 38px 20px rgba(0,0,0,0.33);
 box-shadow: 6px 6px 38px 20px rgba(0,0,0,0.33);
+}
+
+
+
+footer {
+position:relative;
+display:table-cell;
+vertical-align:middle;
+width:100vw;
+height:5em;
+background-color: #333;
+text-align:center;
+color: #bbb;
+z-index: -1;
 }
 
 
