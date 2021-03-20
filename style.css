@@ -104,26 +104,46 @@ width: 60vw;
 .menuButton{
 
 	font-size: 25px;
-	background-color: rgba(0, 0, 0, 0.12);
-	color: white;
+	background-color: rgba(0, 0, 0, 0.21);
+	color: #d9ceba;
 	padding: 20px;
 	width: 12em;
 	text-align: center;
+	-webkit-box-shadow: 6px 6px 38px 20px rgba(0,0,0,0.17);
+-moz-box-shadow: 6px 6px 38px 20px rgba(0,0,0,0.17);
+box-shadow: 6px 6px 38px 20px rgba(0,0,0,0.17);
+}
 
+.menuButton2{
 
+	font-size: 25px;
+	background-color: rgba(0, 0, 0, 0.26);
+	color: #d9ceba;
+	padding: 20px;
+	width: 12em;
+	text-align: center;
+	-webkit-box-shadow: 6px 6px 38px 20px rgba(0,0,0,0.17);
+-moz-box-shadow: 6px 6px 38px 20px rgba(0,0,0,0.17);
+box-shadow: 6px 6px 38px 20px rgba(0,0,0,0.17);
 }
 
 .menuButton:hover {
-		background-color: rgba(0, 0, 0, 0.09);
+		background-color: rgba(0, 0, 0, 0.18);
+	
+}
+
+.menuButton2:hover {
+		background-color: rgba(0, 0, 0, 0.23);
 	
 }
 
 .container5{
 	width: 100%;
-	justify-content: center;
+
 	display: flex;
 flex-direction: row;
-	transform: translate(0px, -7em)
+	transform: translate(0px, -7em);
+	margin-bottom: -5em;
 	
 }
 
