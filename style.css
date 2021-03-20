@@ -6,12 +6,32 @@ height: 100%;
 font-family: 'Arial';
 color: #333;
 background-size: cover;
-	
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-o-user-select: none;
+user-select: none;
+-webkit-user-drag: none;
+-khtml-user-drag: none;
+-moz-user-drag: none;
+-o-user-drag: none;
+user-drag: none;
 }
 
 .banner {
 display: block;
 width: 100%;
+pointer-events: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-o-user-select: none;
+user-select: none;
+-webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
 }
 
 
@@ -36,6 +56,8 @@ box-shadow: 6px 6px 38px 2px rgba(0,0,0,0.37);
 background-image: url(images/kasuwa2.jpg);
 background-size: 100% 100%;
 transition-duration: 0.6s;
+
+
 }
 a.buttonKasuwa:hover{
 border-color: #fff;
@@ -112,6 +134,7 @@ width: 60vw;
 	-webkit-box-shadow: 6px 6px 38px 20px rgba(0,0,0,0.17);
 -moz-box-shadow: 6px 6px 38px 20px rgba(0,0,0,0.17);
 box-shadow: 6px 6px 38px 20px rgba(0,0,0,0.17);
+
 }
 
 .menuButton2{
@@ -166,6 +189,16 @@ flex-direction: row;
 	margin-right: 100px;
 	margin-left: 100px;
 	margin-bottom: 30px;
+	-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-o-user-select: none;
+user-select: none;
+-webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
 }
 
 .box2{
@@ -180,6 +213,8 @@ flex-direction: row;
 	-webkit-box-shadow: 6px 6px 38px 20px rgba(0,0,0,0.18);
 -moz-box-shadow: 6px 6px 38px 20px rgba(0,0,0,0.18);
 box-shadow: 6px 6px 38px 20px rgba(0,0,0,0.18);
+
+
 }
 
 .box2:hover {
