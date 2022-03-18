@@ -22,7 +22,7 @@
 <script>
 function myFunction() {
   var x = document.getElementById("myText").value.trim().split(/\s+/).length;;
-  var y = document.getElementById("myText").value.length;;
+  var y = document.getElementById("myText").value.replace(/(\r\n|\n|\r)/gm, "").length;
   document.getElementById("demo").innerHTML = "Wörter: " + x;
   document.getElementById("demo2").innerHTML = "Zeichen: " + y;
 }
