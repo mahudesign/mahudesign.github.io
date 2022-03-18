@@ -10,9 +10,9 @@
 <div class="aboxCenter1">
 </br></br></br></br>
 <textarea id="myText" name="text" rows="12" cols="100"></textarea>
-</br></br></br></br>
+</br></br>
 <span>
-<button onclick="myFunction()" class="button1">zählen</button>
+
 </span>
 </br></br>
 <p id="demo" class="textresult"></p>
@@ -20,6 +20,20 @@
 </div>
 
 <script>
+
+const source = document.getElementById('myText');
+const result = document.getElementById('demo2');
+
+const inputHandler = function() {
+  var x = document.getElementById("myText").value.trim().split(/\s+/).length;;
+  var y = document.getElementById("myText").value.replace(/(\r\n|\n|\r)/gm, "").length;
+    document.getElementById("demo").innerHTML = "Wörter: " + x;
+  document.getElementById("demo2").innerHTML = "Zeichen: " + y;
+}
+
+source.addEventListener('input', inputHandler);
+source.addEventListener('propertychange', inputHandler)
+
 function myFunction() {
   var x = document.getElementById("myText").value.trim().split(/\s+/).length;;
   var y = document.getElementById("myText").value.replace(/(\r\n|\n|\r)/gm, "").length;
