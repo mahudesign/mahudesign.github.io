@@ -140,7 +140,7 @@ box-shadow: 6px 6px 38px 20px rgba(0,0,0,0.17);
 
 .menuButton2{
 
-	font-size: 170%;
+	font-size: 2rem;
 	background-color: rgba(0, 0, 0, 0.26);
 	color: #d9ceba;
 	padding: 20px;
@@ -284,6 +284,93 @@ background-color: #333;
 text-align:center;
 color: #bbb;
 
+}
+
+
+
+
+
+
+
+
+
+
+
+label,
+textarea {
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+textarea {
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+	-webkit-box-shadow: 5px 5px 37px 5px rgba(0,0,0,0.46); 
+	box-shadow: 5px 5px 37px 5px rgba(0,0,0,0.46);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.textresult {
+    font-size: 2rem;
+	font-family: Arial;
+}
+
+.button1 {
+ font-size: 1.3rem;
+ letter-spacing: 2px;
+ text-transform: uppercase;
+ display: inline-block;
+ text-align: center;
+ font-weight: bold;
+ padding: 0.7em 2em;
+ border: 3px solid #eda6ff;
+ border-radius: 2px;
+ position: relative;
+ box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+ color: #FF0072;
+ text-decoration: none;
+ transition: 0.3s ease all;
+ z-index: 1;
+}
+
+.button1:before {
+ transition: 0.5s all ease;
+ position: absolute;
+ top: 0;
+ left: 50%;
+ right: 50%;
+ bottom: 0;
+ opacity: 0;
+ content: '';
+ background-color: #eda6ff;
+ z-index: -1;
+}
+
+.button1:hover, button:focus {
+ color: white;
+ cursor: pointer;
+}
+
+.button1:hover:before, button:focus:before {
+ transition: 0.5s all ease;
+ left: 0;
+ right: 0;
+ opacity: 1;
+}
+
+.button1:active {
+ transform: scale(0.9);
+}
+
+.aboxCenter1 {
+        margin-right: -20%;
+        margin-left: 20%;
 }
 
 
